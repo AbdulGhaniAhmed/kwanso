@@ -1,13 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { styled } from "styled-components";
 import CreateTask from "./pages/create-task/createTask";
 import ListTask from "./pages/list-task/listTask";
 
 function App() {
-  const AppContainer = styled.div`
-    text-align: center;
-  `;
-
   return (
     <BrowserRouter>
       <main
